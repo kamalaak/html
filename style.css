@@ -1,0 +1,58 @@
+:root{
+    --first:#2f2fa2;
+    --second:#f64c72;
+    --third:#F5F5F5;
+    --karuppu:#101820FF;
+    --manjal: #FEE715FF ;
+}
+
+.container-fluid{
+  background:var(--first);
+    color:whitesmoke;}
+.hi{
+    text-align: center;
+    top: 200px;
+    position: relative;
+   
+}
+.li li{
+    border: 20px;
+    margin: 15px;
+    justify-content: space-between;
+    width: 60%;
+}
+.li li::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: orangered;
+    transition: width 300ms;
+    
+}
+.li li:hover:after{
+   
+    transition: all 1s ease;
+    width: 100%;
+   
+}
+.spa{
+    justify-content: space-between;
+
+}
+.Skills li{
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    
+    padding: 3px;}
+    
+.Skills{
+  margin-top: 100px;
+    top: 100px;
+    justify-content:space-around;
+}
+.Skills .web{
+    border-radius: 15px;
+    background-color: var(--second);
+}
